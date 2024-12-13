@@ -1,0 +1,100 @@
+@import '~normalize.css';
+@import '@blueprintjs/core/lib/css/blueprint.css';
+@import '@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #8A2BE2, #FF6347, #4682B4);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 1200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.html-table.modify {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+.html-table.modify th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.html-table.modify td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+.html-table.modify tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.html-table.modify tr:hover {
+  background-color: #DFF0D8;
+}
+
+.Button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.Button-primary {
+  background-color: #007BFF;
+}
+
+.Button-primary:hover {
+  background-color: #0056b3;
+}
+
+.Button-danger {
+  background-color: #DC3545;
+}
+
+.Button-danger:hover {
+  background-color: #A71D2A;
+}
+
+.Button-success {
+  background-color: #28A745;
+}
+
+.Button-success:hover {
+  background-color: #1E7E34;
+}
+
+.InputGroup {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+}
+
+.InputGroup:focus {
+  border-color: #80BDFF;
+  outline: none;
+}
+
+.CSS-Footer {
+  background-color: #E9F7EF;
+  padding: 10px;
+  border-radius: 8px;
+}
